@@ -1,10 +1,10 @@
-# Exemplo Comunicação
+# Exemplo de Uso da Modalidade Listen
 
 ## Descrição
 
-Exemplo comentado com o minimo de funções necessarias para iniciar e finalizar uma comunicação entre o LPC e CRC fazendo uso da biblioteca eORL fornecida pela Comau.
+Exemplo comentado com o minimo de funções necessarias para iniciar e finalizar uma comunicação entre o LPC e CRC (fazendo uso da biblioteca eORL fornecida pela Comau), e para fazer uso da modalidade Listen.
 
-Esse README tem como objetivo mostrar como se compila um codigo no LPC para C5GOpen com uso da eORL.
+Esse README tem como objetivo mostrar como baixa o codigo fonte, compilar o codigo no LPC para C5GOpen com uso da eORL, e executar.
 
 ## Para baixar o código
 
@@ -13,7 +13,7 @@ Esse README tem como objetivo mostrar como se compila um codigo no LPC para C5GO
 ## Para compilar o código
 
     $cd ExemplosC5GOPEN
-    $cd '1 - Comunicação'
+    $cd '2 - Listen'
     $cmake .
     $make
 
@@ -42,16 +42,4 @@ ou
     [ORL] C5G Open realistic Robot Library (ORL) correctly initialized!
     192.168.29.2: CNTRLC5G_2213436.c5g OK
 
-    [F] ORLOPEN_set_period
-    [ORL][#00][#00] ORL_set_interpolation_time (16.000000 msec): Status => [0] - The service is successful.
-    [ORL][#00] ORLOPEN_set_period (ORL_16_0_MILLIS): Status => [0] - The service is successful.
-
-    [F] ORLOPEN_SetCallBackFunction
-
-    [F] ORLOPEN_StartCommunication
-    Synchronous data thread is starting...
-    Loop Loop Loop Loop Loop Loop Loop Loop Loop {Etc} 
-    [F] ORLOPEN_StopCommunication
-    Synchronous data thread is terminating...
-
-    [F] ORL_terminate_controller
+    [...]
