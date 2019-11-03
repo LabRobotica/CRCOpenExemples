@@ -1,30 +1,24 @@
-# Exemplo de Uso da Modalidade Listen
+# Example Using the Listen Mode
 
-## Descrição
+## Description
 
-Exemplo comentado com o minimo de funções necessarias para iniciar e finalizar uma comunicação entre o LPC e CRC (fazendo uso da biblioteca eORL fornecida pela Comau), e para fazer uso da modalidade Listen.
+Example commented with the minimum of functions required to initiate and terminate communication between LPC and CRC (making use of the eORL library provided by Comau), and to make use of the Listen mode.
 
-Esse README tem como objetivo mostrar como baixa o codigo fonte, compilar o codigo no LPC para C5GOpen com uso da eORL, e executar.
+This README aims to show you how to download the source code, compile the LPC code for C5GOpen using eORL, and execute.
 
-## Para baixar o código
+## To download code and go to folder
 
-    $git clone https://github.com/labrobotica/ExemplosC5GOPEN.git
+     git clone https://github.com/labrobotica/CRCOpenExemples.git && cd "ExamplesC5GOPEN \ 2 - Listen '
 
-## Para compilar o código
+## To compile code
 
-    $cd ExemplosC5GOPEN
-    $cd '2 - Listen'
-    $cmake .
-    $make
+    cmake. && make
 
-## Para executar o código
+## To run the code
 
-    #./main
-ou
+     sudo ./main
 
-    $sudo ./main
-
-## Saída Desejada
+## Desired Exit
 
     Connection to 192.168.29.2: CNTRLC5G_2213436.c5g
 

@@ -1,30 +1,24 @@
-# Exemplo Comunicação
+# Communication Example
 
-## Descrição
+## Description
 
-Exemplo comentado com o minimo de funções necessarias para iniciar e finalizar uma comunicação entre o LPC e CRC fazendo uso da biblioteca eORL fornecida pela Comau.
+Example commented with the minimum of functions required to initiate and terminate communication between LPC and CRC using the eORL library provided by Comau.
 
-Esse README tem como objetivo mostrar como se compila um codigo no LPC para C5GOpen com uso da eORL.
+This README aims to show how to compile a LPC code for C5GOpen using eORL.
 
-## Para baixar o código
+## To download the code and go to folder
 
-    $git clone https://github.com/labrobotica/ExemplosC5GOPEN.git
+    git clone https://github.com/labrobotica/CRCOpenExemples.git && cd 'CRCOpenExemples/1 - Communication'
 
-## Para compilar o código
+## To compile code
 
-    $cd ExemplosC5GOPEN
-    $cd '1 - Comunicação'
-    $cmake .
-    $make
+    cmake. && make
 
-## Para executar o código
+## To run the code
 
-    #./main
-ou
+    sudo ./main
 
-    $sudo ./main
-
-## Saída Desejada
+## Desired Exit
 
     Connection to 192.168.29.2: CNTRLC5G_2213436.c5g
 
