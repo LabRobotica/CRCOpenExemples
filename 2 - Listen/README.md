@@ -8,7 +8,7 @@ This README aims to show you how to download the source code, compile the LPC co
 
 ## To download code and go to folder
 
-     git clone https://github.com/labrobotica/CRCOpenExemples.git && cd "ExamplesC5GOPEN \ 2 - Listen '
+    git clone https://github.com/labrobotica/CRCOpenExemples.git && cd "ExamplesC5GOPEN \ 2 - Listen '
 
 ## To compile code
 

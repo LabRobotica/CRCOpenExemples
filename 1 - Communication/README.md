@@ -8,7 +8,7 @@ This README aims to show how to compile a LPC code for C5GOpen using eORL.
 
 ## To download the code and go to folder
 
-    git clone https://github.com/labrobotica/CRCOpenExemples.git && cd 'CRCOpenExemples/1 - Communication'
+    git clone https://github.com/labrobotica/CRCOpenExemples.git && cd 'CRCOpenExemples/1 - Communication'
 
 ## To compile code
 
